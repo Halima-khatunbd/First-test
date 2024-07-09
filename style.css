@@ -2,8 +2,48 @@
 body{
   font-family: "Azeret Mono", monospace;
 }
-.button-style{
-  display: flex;
-  flex-direction: column-reverse;
 
+header{
+width: 100%;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  }
+.hero-section{
+width: 100%;
+background-image: url(./assets/Hero-bg.png);
+border: 2px solid red;
+height: 652px;
+display: flex;
+}
+
+.hero-container{
+  width: 998px;
+  margin:  auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.Target{
+  width: 946px;
+  margin: 0 auto;
+}
+
+.html-target{
+  border: 2px solid green;
+  width: 32%;
+}
+.targer-top{
+  width: 100%;
+  text-align: center;
+}
+.all-box{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
