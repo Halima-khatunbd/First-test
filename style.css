@@ -13,6 +13,14 @@ padding: 20px 0;
   display: flex;
   justify-content: space-between;
   }
+
+  .container button{
+   background-color: black;
+   color: white;
+   padding: 10pX;
+   border-radius: 06px;
+   }
+
 .hero-section{
 width: 100%;
 background-image: url(./assets/Hero-bg.png);
@@ -28,7 +36,13 @@ display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
 
+.hero-section button{
+  background-color: black;
+  color: white;
+  padding: 10pX;
+  border-radius: 06px;
 }
 .Target{
   width: 946px;
@@ -47,4 +61,52 @@ display: flex;
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+.development{
+  width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  padding: 97px;
+  margin-top: 97pX;
+ border: 2px solid green;
+}
+.development-one{
+
+}
+.development-hader{
+text-align: center;
+padding: 10px 30px;
+
+}
+.development-body{
+  width: 1140pX;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.development-button button{
+  background-color: black;
+  color: white;
+  padding: 10pX;
+  border-radius: 5px;
+}
+
+.video-creator{
+ width: 1140px;
+height: 775px;
+ border: 2px solid red;
+ margin: 0 auto;
+ margin-top: 40px;
+ text-align: center;
+}
+.video-head{
+  padding: 20px;
+  margin: 0 auto;
+  width: 70%;
+}
+.video-title iframe{
+  width: 1100px;
+  height: 585px;
+  padding: 20px;
+  border-radius: 40px;
 }
