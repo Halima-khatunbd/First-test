@@ -48,20 +48,25 @@ display: flex;
   width: 946px;
   margin: 0 auto;
 }
-
-.html-target{
-  border: 2px solid green;
-  width: 32%;
-}
 .targer-top{
   width: 100%;
   text-align: center;
-}
-.all-box{
+ }
+
+ .all-box{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  }
+
+  .html-target{
+  width: 32%;
+  /* border: 2px solid green; */
+  border-radius: 10px;
+  background-color: #8cafd5;
+ 
 }
+
 .development{
   width: 1140px;
   display: flex;
